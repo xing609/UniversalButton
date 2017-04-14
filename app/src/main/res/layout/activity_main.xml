@@ -95,7 +95,6 @@
                 android:text="45圆角边框"
                 app:normalSolid="@color/c1"
                 app:normalStroke="@color/c3"
-
                 app:roundButtonRadius="@dimen/radius_45"
                 app:strokeWidth="1dp" />
 
