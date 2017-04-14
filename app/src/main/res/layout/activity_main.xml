@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <com.star.widget.UniversalBtn
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                app:normalDrawable="@drawable/ic_launcher" />
+
+            <com.star.widget.UniversalBtn
+                android:id="@+id/normalBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="默认矩形一种颜色"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                app:normalSolid="@color/c1" />
+
+            <com.star.widget.UniversalBtn
+                android:id="@+id/selectedBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sel_btn_love"
+                android:text="图片"
+                android:textSize="12sp"
+                app:normalTextColor="@color/c1"
+                app:selectedTextColor="@color/c4" />
+
+            <com.star.widget.UniversalBtn
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/sel_btn_color"
+                android:text="默认selector颜色背景切换" />
+
+            <com.star.widget.UniversalBtn
+                android:id="@+id/btnCircle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="矩形圆角"
+                android:textAllCaps="false"
+                app:normalSolid="@color/c1"
+                app:pressedSolid="@color/c2"
+                app:roundButtonRadius="@dimen/radius_10" />
+
+            <com.star.widget.UniversalBtn
+                android:id="@+id/btnLeftCircle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="左边45弧度圆角"
+                android:textAllCaps="false"
+                app:normalSolid="@color/c1"
+                app:roundButtonLeftBottomRadius="@dimen/radius_45"
+                app:roundButtonLeftTopRadius="@dimen/radius_45"
+                app:roundButtonRightBottomRadius="@dimen/radius_10" />
+
+            <com.star.widget.UniversalBtn
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="45弧度圆角一种颜色带按下效果"
+                app:normalSolid="@color/c1"
+                app:normalTextColor="@color/c6"
+                app:selectedTextColor="@color/c4"
+                app:roundButtonRadius="@dimen/radius_45" />
+
+            <com.star.widget.UniversalBtn
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="45圆角边框"
+                app:normalSolid="@color/c1"
+                app:normalStroke="@color/c3"
+
+                app:roundButtonRadius="@dimen/radius_45"
+                app:strokeWidth="1dp" />
+
+            <com.star.widget.UniversalBtn
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="45弧度圆角按下效果变色边框"
+                app:normalSolid="@color/c1"
+                app:normalStroke="@color/c5"
+                app:pressedStroke="@color/c3"
+                app:roundButtonRadius="@dimen/radius_45"
+                app:strokeWidth="1dp" />
+
+            <com.star.widget.UniversalBtn
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="45弧度圆角按下效果"
+                app:normalSolid="@color/c1"
+                app:pressedSolid="@color/c3"
+                app:roundButtonRadius="@dimen/radius_45" />
+
+            <com.star.widget.UniversalBtn
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="45弧度圆角按下效果文字变色"
+                app:normalSolid="@color/c1"
+                app:normalTextColor="@color/c5"
+                app:pressedSolid="@color/c2"
+                app:roundButtonRadius="@dimen/radius_45"
+                app:selectedTextColor="@color/c4" />
+            <com.star.widget.UniversalBtn
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="android 学习交流群：413893967"
+                android:drawableLeft="@drawable/studio"
+                app:roundButtonRadius="@dimen/radius_45"
+                android:textAllCaps="false"
+                android:onClick="onClickCopy"
+                app:selectedTextColor="@color/c4" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
