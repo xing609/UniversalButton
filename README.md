@@ -72,7 +72,7 @@
           app:selectedTextColor="@color/c4"
           app:roundButtonRadius="@dimen/radius_45" />
 
-**5.设置圆角，描边变色**    
+**6.设置圆角，描边变色**    
      
      <com.star.widget.UniversalBtn
           android:layout_width="match_parent"
