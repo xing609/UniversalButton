@@ -5,10 +5,11 @@
    ![image](https://github.com/xing609/UniversalButton/blob/master/app/assets/universal_button.gif)
 
 ##下面只简单介绍几个常用的属性##
+注意：在xml文件里顶部记得加上命名空间引用; xmlns:app="http://schemas.android.com/apk/res-auto"
 
 **1.只设置背景**
     
-    <com.star.widget.UniversalBtn  
+    <com.star.UniversalBtn  
          android:layout_width="70dp"  
          android:layout_height="70dp"  
          android:layout_gravity="center"  
@@ -16,7 +17,7 @@
 
 **2.只设置正常颜色**   
     
-    <com.star.widget.UniversalBtn  
+    <com.star.UniversalBtn  
          android:id="@+id/normalBtn"  
          android:layout_width="wrap_content"  
          android:layout_height="50dp"  
@@ -30,7 +31,7 @@
 
 **3.正常引用selector,改变字体按下颜色**    
      
-    <com.star.widget.UniversalBtn
+    <com.star.UniversalBtn
          android:id="@+id/selectedBtn"  
          android:layout_width="60dp"  
          android:layout_height="60dp"  
@@ -46,7 +47,7 @@
 
 **4.设置左边圆角，右边直角**    
      
-     <com.star.widget.UniversalBtn
+     <com.star.UniversalBtn
           android:id="@+id/btnLeftCircle"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
@@ -62,7 +63,7 @@
 
 **5.设置圆角，背景跟颜色同时改变**    
      
-     <com.star.widget.UniversalBtn
+     <com.star.UniversalBtn
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginTop="10dp"
@@ -74,7 +75,7 @@
 
 **6.设置圆角，描边变色**    
      
-     <com.star.widget.UniversalBtn
+     <com.star.UniversalBtn
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginTop="10dp"
