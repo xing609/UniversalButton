@@ -15,13 +15,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="15dp">
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 app:normalDrawable="@drawable/ic_launcher" />
 
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:id="@+id/normalBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
@@ -32,7 +32,7 @@
                 android:paddingRight="15dp"
                 app:normalSolid="@color/c1" />
 
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:id="@+id/selectedBtn"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
@@ -44,7 +44,7 @@
                 app:normalTextColor="@color/c1"
                 app:selectedTextColor="@color/c4" />
 
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -55,7 +55,7 @@
                 android:background="@drawable/sel_btn_color"
                 android:text="默认selector颜色背景切换" />
 
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:id="@+id/btnCircle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
                 app:pressedSolid="@color/c2"
                 app:roundButtonRadius="@dimen/radius_10" />
 
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:id="@+id/btnLeftCircle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
                 app:roundButtonLeftTopRadius="@dimen/radius_45"
                 app:roundButtonRightBottomRadius="@dimen/radius_10" />
 
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -88,7 +88,7 @@
                 app:selectedTextColor="@color/c4"
                 app:roundButtonRadius="@dimen/radius_45" />
 
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -98,7 +98,7 @@
                 app:roundButtonRadius="@dimen/radius_45"
                 app:strokeWidth="1dp" />
 
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -109,7 +109,7 @@
                 app:roundButtonRadius="@dimen/radius_45"
                 app:strokeWidth="1dp" />
 
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -118,7 +118,7 @@
                 app:pressedSolid="@color/c3"
                 app:roundButtonRadius="@dimen/radius_45" />
 
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -128,7 +128,7 @@
                 app:pressedSolid="@color/c2"
                 app:roundButtonRadius="@dimen/radius_45"
                 app:selectedTextColor="@color/c4" />
-            <com.star.widget.UniversalBtn
+            <com.star.UniversalBtn
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"

@@ -1,10 +1,10 @@
 package com.star.widget;
 
+import android.app.Activity;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
@@ -13,7 +13,7 @@ import android.widget.Toast;
  * @Email: guimingxing@163.com
  * @Date: 2017/3/30 15:44
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

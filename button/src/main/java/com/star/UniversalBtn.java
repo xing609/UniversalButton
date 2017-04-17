@@ -1,4 +1,4 @@
-package com.star.widget;
+package com.star;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
