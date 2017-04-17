@@ -5,6 +5,7 @@
    ![image](https://github.com/xing609/UniversalButton/blob/master/app/assets/universal_button.gif)
 
 ##下面只简单介绍几个常用的属性##
+
 注意：在xml文件里顶部记得加上命名空间引用; xmlns:app="http://schemas.android.com/apk/res-auto"
 
 **1.只设置背景**
