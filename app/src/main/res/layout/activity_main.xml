@@ -53,7 +53,7 @@
                 android:layout_marginTop="10dp"
                 android:textAllCaps="false"
                 android:background="@drawable/sel_btn_color"
-                android:text="默认selector颜色背景切换" />
+                android:text="selector颜色背景切换" />
 
             <com.star.UniversalBtn
                 android:id="@+id/btnCircle"
