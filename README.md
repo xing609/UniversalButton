@@ -11,7 +11,8 @@
 
 
 **gradle添加依赖**
-    ----------
+
+----------
     compile 'com.github.xing609:UniversalButton:1.0'
 
 **1.只设置背景**
