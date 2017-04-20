@@ -10,8 +10,8 @@
 注意：在xml文件里顶部记得加上命名空间引用; xmlns:app="http://schemas.android.com/apk/res-auto"
 
 
-**gradle**
-    
+**gradle添加依赖**
+    ----------
     compile 'com.github.xing609:UniversalButton:1.0'
 
 **1.只设置背景**
