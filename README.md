@@ -2,6 +2,7 @@
 - Android 自定义多样式Button
 - 目的：解决重复引用selector,减少图片资源占用apk瘦身  
 - 如果觉得对你有用，记得点右上给个Star或Fork
+
    ![image](https://github.com/xing609/UniversalButton/blob/master/app/assets/universal_button.gif)
 
 ##下面只简单介绍几个常用的属性##
