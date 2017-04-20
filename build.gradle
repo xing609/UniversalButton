@@ -14,7 +14,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven { url "https://jitpack.io" }//下拉刷新控件
+        maven { url "https://jitpack.io" }
     }
 }
 task clean(type: Delete) {
