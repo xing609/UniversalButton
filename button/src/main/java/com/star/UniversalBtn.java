@@ -32,8 +32,6 @@ public class UniversalBtn extends Button {
     private boolean isSelected;//是否选中
     private Drawable normalDrawable;//正常图片
     private Drawable pressedDrawable;//按下时图片
-    //private int normalTextColor;//正常文字颜色
-    //private int selectedTextColor;//按下时文字颜色
 
     public UniversalBtn(Context context) {
         super(context);
