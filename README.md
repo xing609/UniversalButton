@@ -1,4 +1,5 @@
 # UniversalButton
+![](https://img.shields.io/github/stars/xing609/UniversalButton.svg?style=flat-square) ![](https://img.shields.io/github/forks/xing609/UniversalButton.svg?style=flat-square) ![GitHub watchers](https://img.shields.io/github/watchers/xing609/UniversalButton.svg?style=flat-square&label=Watch)
 - Android 自定义多样式Button
 - 目的：解决重复引用selector,减少图片资源占用apk瘦身  
 - 如果觉得对你有用，记得点右上给个Star或Fork
