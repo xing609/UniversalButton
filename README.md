@@ -12,8 +12,21 @@
 
 
 **gradle添加依赖**
-
+1. 在 Project 下的 build.gradle 添加
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+2. 在 Module 下的 build.gradle 添加
+```
+dependencies {
     compile 'com.github.xing609:UniversalButton:1.0'
+}
+```
    ----------
 
 **1.只设置背景**
